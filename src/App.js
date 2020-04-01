@@ -3,7 +3,7 @@ import './App.css';
 import celebs from './contacts.json'
 
 const App = () => {
-  console.log(celebs.length)
+
   const [contacts, setContacts] = useState(celebs.slice(0, 5))
 
   const addContact = () => {
@@ -18,6 +18,32 @@ const App = () => {
         console.log(contacts)
       }
     } else { console.log("Celebrity database exhausted") }
+  }
+
+  const sortByName = () => {
+    contacts.sort((a, b) => {
+      if (a.name < b.name) return -1
+      else return 1
+    })
+    console.log(contacts)
+    let newContacts = [...contacts]
+    setContacts(newContacts)
+  }
+
+  const sortByPop = () => {
+    contacts.sort((a, b) => a.popularity - b.popularity).reverse()
+    console.log(contacts)
+    let newContacts = [...contacts]
+    setContacts(newContacts)
+  }
+
+  const deleteContact = (contact) => {
+    let celeb = contacts.find(el => el.id === contact.id)
+    let index = contacts.indexOf(celeb)
+    contacts.splice(index, 1)
+    let newContacts = [...contacts]
+    setContacts(newContacts)
+    console.log(index)
   }
 
   return (
@@ -36,6 +62,8 @@ const App = () => {
         <tbody>
           <tr>
             <td><button onClick={addContact}>Add Random Celebrity</button></td>
+            <td><button onClick={sortByName}>Sort By Name</button></td>
+            <td><button onClick={sortByPop}>Sort By Popularity</button></td>
           </tr>
           {contacts.map(contact => {
             return (
@@ -43,6 +71,7 @@ const App = () => {
                 <td><img src={contact.pictureUrl} alt={contact.name} height="100px" /></td>
                 <td>{contact.name}</td>
                 <td>{contact.popularity.toFixed(2)}</td>
+                <td><button onClick={() => deleteContact(contact)}>Delete</button></td>
               </tr>
             )
           })}
