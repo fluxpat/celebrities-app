@@ -10,12 +10,11 @@ const App = () => {
     let random = celebs[Math.floor(Math.random() * celebs.length)]
     if (contacts.length < celebs.length) {
       if (contacts.find(el => el.id === random.id)) {
-        console.log(random, ": celeb already exists")
+        // console.log(random, ": celeb already exists")
         addContact()
       } else {
         let newContacts = [random, ...contacts]
         setContacts(newContacts)
-        console.log(contacts)
       }
     } else { console.log("Celebrity database exhausted") }
   }
@@ -25,14 +24,12 @@ const App = () => {
       if (a.name < b.name) return -1
       else return 1
     })
-    console.log(contacts)
     let newContacts = [...contacts]
     setContacts(newContacts)
   }
 
   const sortByPop = () => {
     contacts.sort((a, b) => a.popularity - b.popularity).reverse()
-    console.log(contacts)
     let newContacts = [...contacts]
     setContacts(newContacts)
   }
@@ -43,7 +40,6 @@ const App = () => {
     contacts.splice(index, 1)
     let newContacts = [...contacts]
     setContacts(newContacts)
-    console.log(index)
   }
 
   return (
