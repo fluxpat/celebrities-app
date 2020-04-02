@@ -13,7 +13,7 @@ The celebrities are sourced from a JSON file containing arbitrary data.
 
 The final application is as follows:
 
-![Screenshot](https://gph.is/g/ZPm5737)
+![Screenshot](https://media.giphy.com/media/WSBcWDQGe40VdIOFR8/giphy.gif)
 
 ## Installation and execution
 
