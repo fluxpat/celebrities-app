@@ -1,3 +1,6 @@
+# Celebrities App
+https://fluxpat.github.io/celebrities-app/
+
 ## Introduction
 
 This is a basic React web application which showcases 200 Hollywood celebrities and their popularity as rated by fans around the world.
