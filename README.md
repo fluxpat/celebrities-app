@@ -1,37 +1,14 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
-
-# IronContacts
-
 ## Introduction
 
-After Ironhack, you have decided to work in the movie industry, and you've found a job where you need to manage the contacts of a famous producer.
+A basic React application which links to a JSON store of 200 celebrities and their popularity ratings by fans around the world.
+This application was designed with the intention to practise React Hooks, specifically the useState hook and other core React theory.
 
-We are going to create a contact management app with React for this producer.
-
-You can find the starter code in the starter code folder of this GitHub repo.
-
-## Submission
-
-- Upon completion, run the following commands
-
-  ```
-  git add .
-  git commit -m "done"
-  git push origin master
-  ```
-
-- Create Pull Request so your TAs can check up your work.
-
-
-
-## Installation
+## Installation and execution
 
 ```
-$ cd starter-code
 $ npm install
 $ npm start
 ```
-
 
 ## Instructions
 
