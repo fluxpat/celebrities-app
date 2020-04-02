@@ -3,6 +3,11 @@
 This is a basic React web application which showcases JSON data of 200 Hollywood celebrities and their popularity as rated by fans around the world.
 This application was designed with the intention to practise React hooks, specifically the useState hook and other core React theory.
 
+### Techniques implemented:
+* React Hooks
+* React Bootstrap
+* React Transition Group (for animating mounting/unmounting of elements)
+
 ## Installation and execution
 
 ```
