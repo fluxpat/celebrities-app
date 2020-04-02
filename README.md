@@ -3,14 +3,14 @@ Click here to see deployment => https://fluxpat.github.io/celebrities-app/
 
 ## Introduction
 
-This is a basic React web application which showcases 200 Hollywood celebrities and their popularity as rated by fans around the world.
+This is a basic React web application which presents a store of 200 Hollywood celebrities.
 This application was designed with the intention to practise React hooks, specifically { useState } and other core React theory.
 The celebrities are sourced from a JSON file containing arbitrary data.
 
 ### Techniques implemented:
 * React Hooks
 * React Bootstrap
-* React Transition Group (for animating mounting/unmounting of elements)
+* React Transition Group (for animating the mounting & unmounting of elements)
 
 ## Preview
 
