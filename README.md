@@ -24,4 +24,7 @@ $ npm start
 
 ## Functionality
 
-This application allows you to remove and add random celebrities from a visual interface and to sort the existing list based on name and popularity.
+This application allows you to:
+* Add random celebrities from the JSON data
+* Remove a celebrity from the visual interface
+* Sort the existing list based on name and popularity
