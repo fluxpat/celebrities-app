@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/celebrities-app/static/css/main.6d1e0305.chunk.css",
-    "main.js": "/celebrities-app/static/js/main.e5bc229d.chunk.js",
-    "main.js.map": "/celebrities-app/static/js/main.e5bc229d.chunk.js.map",
+    "main.js": "/celebrities-app/static/js/main.c1320c67.chunk.js",
+    "main.js.map": "/celebrities-app/static/js/main.c1320c67.chunk.js.map",
     "runtime-main.js": "/celebrities-app/static/js/runtime-main.9bb7f6e7.js",
     "runtime-main.js.map": "/celebrities-app/static/js/runtime-main.9bb7f6e7.js.map",
     "static/css/2.de424728.chunk.css": "/celebrities-app/static/css/2.de424728.chunk.css",
     "static/js/2.d66e9514.chunk.js": "/celebrities-app/static/js/2.d66e9514.chunk.js",
     "static/js/2.d66e9514.chunk.js.map": "/celebrities-app/static/js/2.d66e9514.chunk.js.map",
     "index.html": "/celebrities-app/index.html",
-    "precache-manifest.512b7998b7cbd3abe19f9ea2975d40c1.js": "/celebrities-app/precache-manifest.512b7998b7cbd3abe19f9ea2975d40c1.js",
+    "precache-manifest.3463f8f71abd4854aa012238e41dbe14.js": "/celebrities-app/precache-manifest.3463f8f71abd4854aa012238e41dbe14.js",
     "service-worker.js": "/celebrities-app/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/celebrities-app/static/css/2.de424728.chunk.css.map",
     "static/css/main.6d1e0305.chunk.css.map": "/celebrities-app/static/css/main.6d1e0305.chunk.css.map"

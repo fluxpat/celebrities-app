@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da0a0fcf35d2056726b6c6fe70781a28",
+    "revision": "31583b457921b34f7b8a5d58dc283273",
     "url": "/celebrities-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celebrities-app/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "7799ff80098a4143e2a9",
+    "revision": "a4e08d89e05630b367c5",
     "url": "/celebrities-app/static/css/main.6d1e0305.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celebrities-app/static/js/2.d66e9514.chunk.js"
   },
   {
-    "revision": "7799ff80098a4143e2a9",
-    "url": "/celebrities-app/static/js/main.e5bc229d.chunk.js"
+    "revision": "a4e08d89e05630b367c5",
+    "url": "/celebrities-app/static/js/main.c1320c67.chunk.js"
   },
   {
     "revision": "83d413d9db7ea2248909",
