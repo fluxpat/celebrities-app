@@ -13,7 +13,7 @@ The celebrities are sourced from a JSON file containing arbitrary data.
 
 The final application is as follows:
 
-![Screenshot](https://i.imgur.com/N3K1K1k.png)
+![Screenshot](https://gph.is/g/ZPm5737)
 
 ## Installation and execution
 
