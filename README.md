@@ -1,5 +1,5 @@
 # Celebrities App
-https://fluxpat.github.io/celebrities-app/
+Click here to see deployment => https://fluxpat.github.io/celebrities-app/
 
 ## Introduction
 
